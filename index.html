@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="./tailwind.css">
+    <title>Modrino</title>
+</head>
+<body class="font-poppins">
+    <!-- header section  -->
+    <header class="bg-[url(./images/header.png)] bg-center bg-cover">
+        <nav class="flex justify-between items-center py-1">
+            <!-- logo  -->
+            <div>
+                <img src="./images/logo.png" alt="">
+            </div>
+            <!-- menu  -->
+             <ul class="text-white hidden md:flex gap-2.5 sm:gap-8 md:mr-56 mr-3 sm:text-xl text-sm">
+                <li><a href="#" class="active:border-b">Home </a></li>
+                <li><a href="#" class="active:border-b">About</a></li>
+                <li><a href="#"class="active:border-b">Services</a></li>
+                <li><a href="#" class="active:border-b">Contact</a></li>
+             </ul>
+             <!-- toggle -->
+             <div class="text-2xl text-white md:hidden mr-8">
+                <h1>☰</h1>
+             </div>
+        </nav>
+        <!-- banner -->
+         <section class="text-left">
+            <!-- banner content -->
+             <div class="ml-8 w-2/3">
+                <h1 class="text-5xl sm:text-8xl font-sansita text-white mb-4">Find Your <br>Dream Car</h1>
+                <p class="text-base text-[#CACACA] mb-5 lg:w-2/4"> A luxurious cabin, potentially with fine leather seating, wood trim, and a high-tech,, minimalist dash equipped with a large monitor. Blending extreme speed with cutting-edge design.</p>
+                <button class="text-[#F3F4F6] border-2 px-8 py-3 rounded-2xl md:mb-20">Read More</button>
+             </div>
+             <!-- banner img  -->
+              <img src="./images/car.png" alt="" class="md:absolute  md:-mt-117 md:ml-[500px]">
+         </section>
+    </header>
+</body>
+</html>
