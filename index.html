@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="./tailwind.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Modrino</title>
 </head>
 <body class="font-poppins">
@@ -45,27 +46,119 @@
     <section>
         <!-- icons container -->
          <div class="mx-32 my-20 md:my-28 gap-5 md:gap-7 grid grid-cols-2 md:grid-cols-5 items-center">
-            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1">
+            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1 px-3">
                 <img src="./images/icon1.png" alt="" class="pt-2 w-28">
                 <p class="text-[#6F6F6F] py-1">Sedan</p>
             </div>
-            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1">
+            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1 px-3">
                 <img src="./images/icon2.png" alt="" class="pt-2 w-28">
                 <p class="text-[#6F6F6F] py-1">Cabriolet</p>
             </div>
-            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1">
+            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1 px-3">
                 <img src="./images/icon3.png" alt="" class="pt-2 w-28">
                 <p class="text-[#6F6F6F] py-1">Coupe</p>
             </div>
-            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1">
+            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1 px-3">
                 <img src="./images/icon4.png" alt="" class="pt-2 w-28">
                 <p class="text-[#6F6F6F] py-1">SUV</p>
             </div>
-            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1">
+            <div class="border border-[#D9D9D9] rounded-2xl place-items-center py-1 px-3">
                 <img src="./images/icon5.png" alt="" class="pt-1 w-24">
                 <p class="text-[#6F6F6F]">Micro</p>
             </div>
          </div>
     </section>
+    <!-- categories -->
+     <section class="bg-[#030915]">
+        <!-- categories container -->
+         <div class="mx-10 md:mx-20 py-9 ">
+            <!-- categories content -->
+             <div class="text-white text-center mb-5 ">
+             <h1 class="text-5xl font-sansita md:text-7xl mb-4">Top Categories </h1>
+             <ul class="flex justify-center items-center gap-4 md:gap-8 mt-6">
+                <li class="text-sm sm:text-base hover:border-b-2 hover:border-[#343f58]">In stock</li>
+                <li class="text-sm sm:text-base hover:border-b-2 hover:border-[#343f58]">Used Cars</li>
+                <li class="text-sm sm:text-base hover:border-b-2 hover:border-[#343f58]">Any Modals</li>
+                <li class="text-sm sm:text-base hover:border-b-2 hover:border-[#343f58]">Any Motors</li>
+                <li class="text-sm sm:text-base hover:border-b-2 hover:border-[#343f58]">All Prices</li>
+             </ul>
+         </div>
+          <hr class="text-[#343f5838] mb-5 md:mb-9">
+         <!-- categories card container -->
+          <div class="grid grid-cols-2 grid-rows-3 sm:grid-cols-4  sm:grid-rows-2 gap-5 text-white">
+            <!-- card -->
+            <div class="col-span-2 sm:col-span-4 row-span-1 flex flex-col sm:flex-row bg-[url(./images/category-bg.png)] bg-no-repeat bg-center bg-cover py-2.5">
+                <!-- main card content -->
+                <div class="text-left mr-8 ml-5">
+                <h2 class="text-3xl md:text-5xl font-sansita md:mb-4">
+                    Rolls Royce <br> Wraith
+                </h2>
+                <button class="text-[#F3F4F6] border-2 my-2 px-1 py-2 md:px-8 md:py-3 rounded-2xl text-sm md:text-base">Learn More</button>
+                </div>
+                <!-- main card img -->
+                 <div class="lg:ml-56">
+                    <img src="./images/category.png" alt="">
+                 </div>
+            </div>
+            <!-- .... -->
+            <div class="bg-[#161C28] px-2.5 pt-3.5 sm:pb-3.5">
+               <div >
+                <img src="./images/blue-car.png" alt="" class="w-full pb-2">
+               </div>
+               <div class="flex sm:flex-row flex-col justify-between pb-2 font-semibold">
+                <p class="text-sm sm:text-base mb-2 sm:mb-0">Audi</p>
+                <p class="text-sm sm:text-base">$78,000</p>
+               </div>
+               <div class="flex flex-col sm:flex-row justify-between sm:items-center">
+                <p class="text-sm sm:text-base">Oxford Blue</p>
+                <p class="mt-2 sm:mt-0"><i class="fa-regular fa-star"></i></p>
+               </div>
+            </div>
+            <!-- .... -->
+            <div class="bg-[#161C28] px-2.5 pt-3.5 sm:pb-3.5">
+               <div>
+                <img src="./images/red-car.png" alt="" class="w-full pb-2">
+               </div>
+               <div class="flex sm:flex-row flex-col justify-between pb-2 font-semibold">
+                <p class="text-sm sm:text-base mb-2 sm:mb-0">Ferrari</p>
+                <p class="text-sm sm:text-base">$78,000</p>
+               </div>
+               <div class="flex flex-col sm:flex-row justify-between sm:items-center">
+                <p class="text-sm sm:text-base">Oxford Blue</p>
+                <p class="mt-2 sm:mt-0"><i class="fa-regular fa-star"></i></p>
+               </div>
+            </div>
+            <!-- .... -->
+            <div class="bg-[#161C28] px-2.5 pt-3.5 sm:pb-3.5">
+               <div>
+                <img src="./images/orange-car.png" alt="" class="w-full pb-2">
+               </div>
+               <div class="flex sm:flex-row flex-col justify-between pb-2 font-semibold">
+                <p class="text-sm sm:text-base mb-2 sm:mb-0">Tesla</p>
+                <p class="text-sm sm:text-base">$78,000</p>
+               </div>
+               <div class="flex flex-col sm:flex-row justify-between sm:items-center">
+                <p class="text-sm sm:text-base">Oxford Blue</p>
+                <p class="mt-2 sm:mt-0"><i class="fa-regular fa-star"></i></p>
+               </div>
+            </div>
+            <!-- .... -->
+            <div class="bg-[#161C28] px-2.5 pt-3.5 sm:pb-3.5">
+               <div>
+                <img src="./images/white-car.png" alt="" class="w-full pb-2">
+               </div>
+               <div class="flex sm:flex-row flex-col justify-between pb-2 font-semibold">
+                <p class="text-sm sm:text-base mb-2 sm:mb-0">BMW</p>
+                <p class="text-sm sm:text-base">$78,000</p>
+               </div>
+               <div class="flex flex-col sm:flex-row justify-between sm:items-center">
+                <p class="text-sm sm:text-base">Oxford Blue</p>
+                <p class="mt-2 sm:mt-0"><i class="fa-regular fa-star"></i></p>
+               </div>
+            </div>
+            <!-- .... -->
+          </div>
+          </div>
+     </section>
 </body>
 </html>
